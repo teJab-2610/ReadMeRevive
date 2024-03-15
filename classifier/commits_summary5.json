@@ -1,0 +1,26 @@
+[
+    {
+        "commit_hash": "d66e647f99994e363cf179c10a25b45aa04de9fa",
+        "summary": "$Dependency Update$: Updates package version from 0.1.31 to 0.1.32"
+    },
+    {
+        "commit_hash": "7910cee2594fe531b2bee6fb1de334d75f472d17",
+        "summary": "$Refactor$: Moved import of Cohere, HuggingFaceHub, and Replicate to their respective subpackages for better organization and modularity.\n$Dependency Update$: Updated import of Replicate to its new location in the replicate subpackage."
+    },
+    {
+        "commit_hash": "ae6f8669014e6d4c1f0e01d76f04ea07aaebc5a6",
+        "summary": "$Feature$ : Update default chunk size for web page to 2000."
+    },
+    {
+        "commit_hash": "b7a44ef472dd2cf62148622cb74b9b6399deb98c",
+        "summary": "$Refactor$, $Dependency Update$\nThe commit refactors the build system and updates dependencies by removing `setuptools` and `wheel` and adding `poetry-core`."
+    },
+    {
+        "commit_hash": "0efbc80ac9723afbecc9290204eb11471c7f968c",
+        "summary": "$Documentation$ : Updated documentation and added a new example for the Mistral tool.\n$Feature$ : Added a new embedding provider with Sentence Transformers model from HuggingFace.\n$Dependency Update$ : Updated dependencies and imported a new config class and data formatter."
+    },
+    {
+        "commit_hash": "65c8dd445bce6ccda5c9cb8ad96a5adfd1cbb66c",
+        "summary": "$Documentation$ : Updated the README file to include a 'Pebbles' badge.\n$Configuration$ : Updated the logging for `min_chunk_size` and `chunk_overlap` to be a warning instead of an error in the `add_config.py` script."
+    }
+]

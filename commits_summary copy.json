@@ -1,0 +1,106 @@
+[
+    {
+        "commit_hash": "a1394ce32e74c592a5f575db7413bd5215ea49bd",
+        "summary": "$Dependency Update: Updated dependencies, primarily bumped the version and added beautifulsoup4 and pypdf dependencies.$\n$Chore: Added support for passing a specific test file to the `test` command.$"
+    },
+    {
+        "commit_hash": "3a09c2bd625692c319c640277730c30bcce28647",
+        "summary": "$Documentation$: Added FAQ on persisting data across multiple app sessions to documentation."
+    },
+    {
+        "commit_hash": "dd97fad5a42329cd5100ac77bb759b7eaffba478",
+        "summary": "$Bug Fix$: Fix indents in yaml file.\n$Configuration$: Update config section in YAML of Mistral streamlit app."
+    },
+    {
+        "commit_hash": "6d2389de1c84e97f4891efd950472513cc9b8764",
+        "summary": "$Performance$\n- Improved performance by caching the creation of the Embedchain app instance using @st.cache_resource decorator."
+    },
+    {
+        "commit_hash": "db37b2ac153e8cfa3300a5c128f250f1fb3984e6",
+        "summary": "$Bug Fix$: Fixes issues related to chunker configuration.\n$Configuration$: Adds `min_chunk_size` to `chunker` section in config.yaml.\n$Refactor$: Moves `OPENAI_API_KEY` assignment to the top of `app.py` and uses newer syntax for creating `App` object."
+    },
+    {
+        "commit_hash": "b5f84f27ffc7de6cdda69b9e111c6d2dab57bf7d",
+        "summary": "$Feature$: Added 'Modal.com' as a hosting option in the CardGroup and a 'Seeking help' section with contact information.\n$Chore$: Updated link for Modal.com card in lib/index.js"
+    },
+    {
+        "commit_hash": "7bcc9e35dd7111778d501f1f58edae07bb27411a",
+        "summary": "- $Feature$: Embedchain automatically finds and installs missing requirements\n- $Documentation$: Updated README with updated quick install instructions, removed outdated sections, and added Anonymous Telemetry section.\n- $Documentation$: Updated introduction.mdx, fixed typo, and reorganized sections."
+    },
+    {
+        "commit_hash": "43926fb527869b82b6dfc61afd3c04f31ffb9f6f",
+        "summary": "$Documentation$\n- Updated social media links and added calls to action in README.md.\n- Changed the subtitle and added a tagline in introduction.mdx.\n\n$Tests$\n- Removed Docker instructions for running Embedchain as a REST API server in README.md."
+    },
+    {
+        "commit_hash": "65c8dd445bce6ccda5c9cb8ad96a5adfd1cbb66c",
+        "summary": "$Documentation$ : Updated documentation and added PePy badge\n$Configuration$ : Changed the comparison of `min_chunk_size` and `chunk_overlap` from `<=` to `<` in the warning message to make it more accurate."
+    },
+    {
+        "commit_hash": "54f43215cd972cd4f3f3099d29d4115b00e1aa40",
+        "summary": "$Feature$: Added \"Directory\" as a new data source type.\n$Documentation$: Updated documentation to include code examples for loading specific file types recursively and added a new Card for a Directory data source."
+    },
+    {
+        "commit_hash": "e719b5bac39fd1ba31a03578d8213ac2908872f0",
+        "summary": "$Bug Fix$: Fixed issue with cloning repositories by using proper Github library and validating search queries.\n\n$Refactor$: Improved code organization and structure by removing unnecessary cloning call and replacing it with repo initialization."
+    },
+    {
+        "commit_hash": "b34825148478e8e1a083dd22e08495e2331e4650",
+        "summary": "$Documentation$ Update FAQs and remove OpenAI API key setting."
+    },
+    {
+        "commit_hash": "9943d1e01570f99169bea4e7ea57d9ab30b8d10e",
+        "summary": "$Documentation$ - Updates documentation for examples of using Embedchain with notebooks and REPLs\n\n$Refactor$ - Removes deployment name for OpenAI embedder."
+    },
+    {
+        "commit_hash": "bee4e834b16bf8e3204997771df5030702c3ef51",
+        "summary": "- $Feature$: Added Slack integration and documentation for Embedchain SlackLoader.\n- $Documentation$: Updated documentation for SlackLoader and added Slack as a supported data type."
+    },
+    {
+        "commit_hash": "d66e647f99994e363cf179c10a25b45aa04de9fa",
+        "summary": "$Dependency Update$: Updates package version from 0.1.31 to 0.1.32"
+    },
+    {
+        "commit_hash": "7910cee2594fe531b2bee6fb1de334d75f472d17",
+        "summary": "$Refactor$: Moved import of Cohere, HuggingFaceHub, and Replicate to their respective subpackages for better organization and modularity.\n$Dependency Update$: Updated import of Replicate to its new location in the replicate subpackage."
+    },
+    {
+        "commit_hash": "ae6f8669014e6d4c1f0e01d76f04ea07aaebc5a6",
+        "summary": "$Feature$ : Update default chunk size for web page to 2000."
+    },
+    {
+        "commit_hash": "b7a44ef472dd2cf62148622cb74b9b6399deb98c",
+        "summary": "$Refactor$, $Dependency Update$\nThe commit refactors the build system and updates dependencies by removing `setuptools` and `wheel` and adding `poetry-core`."
+    },
+    {
+        "commit_hash": "0efbc80ac9723afbecc9290204eb11471c7f968c",
+        "summary": "$Documentation$ : Updated documentation and added a new example for the Mistral tool.\n$Feature$ : Added a new embedding provider with Sentence Transformers model from HuggingFace.\n$Dependency Update$ : Updated dependencies and imported a new config class and data formatter."
+    },
+    {
+        "commit_hash": "65c8dd445bce6ccda5c9cb8ad96a5adfd1cbb66c",
+        "summary": "$Documentation$ : Updated the README file to include a 'Pebbles' badge.\n$Configuration$ : Updated the logging for `min_chunk_size` and `chunk_overlap` to be a warning instead of an error in the `add_config.py` script."
+    },
+    {
+        "commit_hash": "a4831d6ed9351e69db0a81eca37490a9d8dba8b0",
+        "summary": "$Feature$: EmbedChain class constructor arguments order has been changed for better consistency \n$Refactor$: SitemapLoader imports updated from urllib.parse to urlparse \n$Dependency Update$: bumped poetry version from 0.1.26 to 0.1.27"
+    },
+    {
+        "commit_hash": "e84b5034eae349a4ded6946210969fa3b95c08e5",
+        "summary": "$Bug Fix$: Fixed the return type of ec chat.\n$Documentation$: Bumped version to 0.1.28"
+    },
+    {
+        "commit_hash": "4a5ed1dd8d7ec5f702da6e1d009b4577444afb46",
+        "summary": "$Feature$ Added 'citations' argument to EmbedChain class to retrieve citations from the database.\n$Dependency Update$ Bumped version from 0.1.28 to 0.1.29."
+    },
+    {
+        "commit_hash": "d62a23edf6ab2c5b977280a65f536ccd8923a0d6",
+        "summary": "$Feature$: Substack is added to the list of supported data sources.\n$Refactor$: Improved handling of Substack data source by using the root URL and enhanced error handling."
+    },
+    {
+        "commit_hash": "adde398b658197980a99a705a76279d7ac996600",
+        "summary": "$Dependency Update$: Updated version number from 0.1.29 to 0.1.30."
+    },
+    {
+        "commit_hash": "111749a95dbd65b4edc3d920bf68d9ccab3e695c",
+        "summary": "$Documentation$ Adds documentation about getting source along with the answer."
+    }
+]
