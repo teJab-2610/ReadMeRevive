@@ -1,0 +1,214 @@
+[
+  {
+    "commit_hash": "a4831d6ed9351e69db0a81eca37490a9d8dba8b0",
+    "summary": "$Dependency Updates$ : bumped to 0.1.27\n$Feature$: Adds `citation` to `index.js` from `urllib.parse`."
+  },
+  {
+    "commit_hash": "e84b5034eae349a4ded6946210969fa3b95c08e5",
+    "summary": "$Bug Fix$: Improved performance and fixed re-embedding issues in EmbedChain.\n$Feature$: Added optional \"citations\" flag to query function.\n$Dependency Update$: Bumped Poetry version from 0.1.27 to 0.1.28."
+  },
+  {
+    "commit_hash": "4a5ed1dd8d7ec5f702da6e1d009b4577444afb46",
+    "summary": "$Feature$ : Added citations flag for EmbedChain.\n$Dependency Update$ : Minor update in package version from 0.1.28 to 0.1.29."
+  },
+  {
+    "commit_hash": "d62a23edf6ab2c5b977280a65f536ccd8923a0d6",
+    "summary": "$Feature$: Adds 'Substack' as a supported data source.\n$Refactor$: Changes the source URL from sitemap.xml to the main base URL for Substack data sources.\n$Bug Fix$: Improves error handling for HTTP requests and XML parsing, and adds handling for non-sitemap URLs.\n$Dependency Update$: Adds dependency on `xml.etree`."
+  },
+  {
+    "commit_hash": "adde398b658197980a99a705a76279d7ac996600",
+    "summary": "$Dependency Update$: Bumped version from 0.1.29 to 0.1.30"
+  },
+  {
+    "commit_hash": "111749a95dbd65b4edc3d920bf68d9ccab3e695c",
+    "summary": "$Feature$: Added documentation about getting source along with the answer."
+  },
+  {
+    "commit_hash": "d66e647f99994e363cf179c10a25b45aa04de9fa",
+    "summary": "$Dependency$: Package version from 0.1.31 to 0.1.32"
+  },
+  {
+    "commit_hash": "7910cee2594fe531b2bee6fb1de334d75f472d17",
+    "summary": "$Dependency Update: LLMs imported from langchain.llms to langchain.llms.cohere, langchain.llms.replicate and langchain.llms.huggingface_hub$"
+  },
+  {
+    "commit_hash": "ae6f8669014e6d4c1f0e01d76f04ea07aaebc5a6",
+    "summary": "$Feature$: Updated default chunk size from 500 to 2000 in WebPageChunker for better performance.\n$Refactor$: Adjusted chunk sizes and overlap values for specific chunker types and applied custom configuration values using ChunkerConfig for consistent configuration across chunkers."
+  },
+  {
+    "commit_hash": "b7a44ef472dd2cf62148622cb74b9b6399deb98c",
+    "summary": "$Feature$ : Updated build system tool from setuptools to poetry\n$Dependency$ : Added `poetry-core` to `requires` of `build-system`"
+  },
+  {
+    "commit_hash": "0efbc80ac9723afbecc9290204eb11471c7f968c",
+    "summary": "$Documentation$ - Updates to FAQs and examples.\n$Support$ - Configuration updates for DirectoryLoader.\n$Refactor$ - Utility function updates and import handling."
+  },
+  {
+    "commit_hash": "65c8dd445bce6ccda5c9cb8ad96a5adfd1cbb66c",
+    "summary": "$Feature$: Add PyPy and PyPI download badges to README\n$Configuration$: Update ChunkerConfig min_chunk_size constraints in add_config.py"
+  },
+  {
+    "commit_hash": "54f43215cd972cd4f3f3099d29d4115b00e1aa40",
+    "summary": "$Feature$ : Added support for using a directory as a data source in EmbedChain.\n$Tests$: Added tests for the new directory data source."
+  },
+  {
+    "commit_hash": "e719b5bac39fd1ba31a03578d8213ac2908872f0",
+    "summary": "$Bug Fix$ : Fixed error caused by executing Repo.clone_from twice\n$Tests$ : Added tests for discussion search"
+  },
+  {
+    "commit_hash": "b34825148478e8e1a083dd22e08495e2331e4650",
+    "summary": "$Documentation$ : Added instructions on using a range of language models, including MistralAI, ChatGPT 4 turbo, GPT-4, and open source models.\n$Configuration$ : Loaded LLM configuration from opensource.yaml file"
+  },
+  {
+    "commit_hash": "9943d1e01570f99169bea4e7ea57d9ab30b8d10e",
+    "summary": "$Installation$ : Removed the \"Examples\" section from the page title and heading.\n$Documentation$ : Simplified the introduction, removing unnecessary phrases.\n$Documentation$ : Eliminated the \"Collection of...\" phrase in the heading of the tables.\n$Documentation$ : Removed unnecessary spacing between table rows.\n$Chore$ : Added a new example group: \"Notebooks and Replits\".\n$Bug Fix$ : Removed the deployment name configuration for the OpenAI text embedding model."
+  },
+  {
+    "commit_hash": "bee4e834b16bf8e3204997771df5030702c3ef51",
+    "summary": "$Feature: Added Slack data source support$\n$Documentation: Simplified example and added Slack data source support to documentation$\n$Installation: Automatic data retrieval for Slack$"
+  },
+  {
+    "commit_hash": "db37b2ac153e8cfa3300a5c128f250f1fb3984e6",
+    "summary": "$Bug Fix$: Fixed the chunker configuration bug.\n$Configuration$: Updated the configuration to include a new 'min_chunk_size' option with a value of 0."
+  },
+  {
+    "commit_hash": "33dcfe42b5d311cbe7282f626358cffa5e5b27d1",
+    "summary": "$Feature$ : Updated the Chainlit app setup and improved the Streamlit docs.\n$Dependency Update$: Updated the LLM model to \"mistralai/Mistral-8x7B-Instruct-v0.1\" in app.py and config.yaml."
+  },
+  {
+    "commit_hash": "cd2c40a9c45100bf00b72074027c73facedebe38",
+    "summary": "$Feature: OpenAI function calling support$\n$API Update: Updated to the latest version of OpenAI API$\n$Tests: Tests for OpenAI functions$"
+  },
+  {
+    "commit_hash": "b5f84f27ffc7de6cdda69b9e111c6d2dab57bf7d",
+    "summary": "$Chore$: Code improvement for display of Modal.com in overview section."
+  },
+  {
+    "commit_hash": "7bcc9e35dd7111778d501f1f58edae07bb27411a",
+    "summary": "- Feature: Added Sadhguru AI app demonstration.\n- Feature: Added a section \"Getting started\" to give users a better idea on how to start working with Embedchain.\n- Feature: Added a section \"Support\" to provide users contact information and a quickstart guide.\n- Refactor: Code style refactoring.\n- Refactor: Added support for Windows systems.\n- Refactor: Updated documentation links for component overview.\n- Support: Moved REST API port to 8080.\n- Support: Added documentation for using the REST API with Python.\n- Support: Improvements to REST API documentation.\n- Installation: Docs on steps to setup the software.\n- Chore: Contributions section moved.\n- Configuration: Updated documentation links.\n- Configuration: Updated docs to reflect latest changes in platform.\n- Dependency Update: Updated documentation links for PyPI, Twitter, and Embedchain.\n- Dependency Update: Added a new documentation link for Sadhguru AI.\n- Dependency Update: Updated documentation links for Slack, Twitter, and Substack."
+  },
+  {
+    "commit_hash": "43926fb527869b82b6dfc61afd3c04f31ffb9f6f",
+    "summary": "$Feature$: Emphasized the \"Conventional but Configurable\" design principle, and removed the production-ready tag.\n$Documentation$: Updated the Python API installation command, and added a Discord Community link."
+  },
+  {
+    "commit_hash": "a1394ce32e74c592a5f575db7413bd5215ea49bd",
+    "summary": "$Feature$ : Added test flag for specifying a specific file to run in pytest\n$Dependency$ : Updated version to 0.1.37, and made various dependency changes including updating beautifulsoup4, pypdf, etc."
+  },
+  {
+    "commit_hash": "3a09c2bd625692c319c640277730c30bcce28647",
+    "summary": "$Feature$: Added FAQ on persisting data across multiple app sessions.\n$Chore$: Updated titles and configuration examples."
+  },
+  {
+    "commit_hash": "a10823d309eb3def4663b83dff10df9902c4f117",
+    "summary": "$Feature: Added AI chatbot functionality in the Unacademy UPSC AI app, enabling users to ask questions and receive AI-powered responses.$\n$Dependency: Added embedchain, streamlit, and pysqlite3-binary libraries.$"
+  },
+  {
+    "commit_hash": "94ba82f2a24fe21d497bfba1a19a676e207ae036",
+    "summary": "$Bug Fix$\n- Fix: Remove unused and deprecated app.count method"
+  },
+  {
+    "commit_hash": "f58bbeffcee36505f4773224a7f33f1c278002ed",
+    "summary": "$Bug Fix: Added features to display sources in the application.$"
+  },
+  {
+    "commit_hash": "73e726f6e3d9989be319515c96e441fca7df0991",
+    "summary": "$Configuration$ : Configuration changes in `config.yaml`, `config.json` and `config.py`.\n$Bug Fix$ : Fixed an issue with the `--port` option in the `dev` command."
+  },
+  {
+    "commit_hash": "1b661bb2fd134d5063a45806f5a726d2fb0e49e2",
+    "summary": "**$Feature$**: Added ability to specify the number of results to retrieve via the \"count\" parameter in the config.\n**$Dependency$**: Updated the package version from 0.1.54 to 0.1.55."
+  },
+  {
+    "commit_hash": "4dfce44c1a4abc8d42191d1d57e286ba31f87008",
+    "summary": "$Bug Fix$: Removed unnecessary \"channel\" field from the message metadata.\n$Dependency Update$: Updated dependencies."
+  },
+  {
+    "commit_hash": "0c45020d811cebf1cdcde274a0933ccab7212437",
+    "summary": "$Feature$: Docker support for full-stack app creation and execution.\n$Installation$: Updated Docker instructions and included images for visual guidance.\n$Documentation$: Improved documentation for full-stack app setup and usage."
+  },
+  {
+    "commit_hash": "6c69ddef9b0131c758a10891e23cbd1d9b3c645a",
+    "summary": "$Dependency$: Package version from 0.1.55 to 0.1.56"
+  },
+  {
+    "commit_hash": "dd258c14b54764c953f3e7424aa58bc8a2082b3c",
+    "summary": "$Feature: GPT4All can now work offline.$"
+  },
+  {
+    "commit_hash": "dd9b72dc62ac517339d0e66617cb1aa41fcd307f",
+    "summary": "$Dependency$: Bump version from 0.1.50 to 0.1.51"
+  },
+  {
+    "commit_hash": "f5e3410e9ae1102428746686b69590082f1eccaf",
+    "summary": "$Documentation: Adding `session_id` parameter to docs for maintaining chat sessions for different users.$"
+  },
+  {
+    "commit_hash": "1976d38b258b8295a975f7e19bf1cb02c6a9e8a6",
+    "summary": "$Bug Fix$: Fix pdf streamlit example.\n$Tests$: Update tests for source link fix."
+  },
+  {
+    "commit_hash": "ae2e9cb8900bc9501cf58ee7fd7b18541e22eb36",
+    "summary": "$Bug Fix: Fixed cache session id in chat method.$\n$Refactor: \n- Renamed `query_embedding` to `query`.\n- Renamed `add_embedding` to `add`.\n- Renamed `embedding` to `chunk`.\n- Set `ChunkerConfig` as the default config for the `add` function.\n- Set `BaseLlmConfig` as the default config for the `query` function.$"
+  },
+  {
+    "commit_hash": "a67d902b85b9c127be054789789bb1c710136f3a",
+    "summary": "$Bug Fix$: Updated seq2seq generation top_p to 0.5 to control randomness of LLM output."
+  },
+  {
+    "commit_hash": "38ad57a22ca4609747c4873dbba4df4d81bda676",
+    "summary": "$Documentation$  Minor update to documentation with typo fixes and improved wording."
+  },
+  {
+    "commit_hash": "a304ded5002ce46e5eeee96fb5980f521c11be69",
+    "summary": "$Bug Fix$: Fixes a bug where an existing doc is not updated with new content.\n$Refactor$: Swaps the arguments for `.add()` method, adds `self.is_docs_site_instance` to the `add` method to check if the data type is `DataType.DOCS_SITE`.\n$Chore$: Removes code related to the `user_asks` list in `.add()` to reduce memory usage.\n$Dependency$: Changes parser type file from 'lxml-xml' to 'html.parser' and adds 'embedder' and 'embedding_model' to the code.\n$Configuration$: Adds two new optional fields to the config validation: `title` and `task_type`."
+  },
+  {
+    "commit_hash": "4f70fea6dfefbedaab990cd8c5e70507687b1c4a",
+    "summary": "$Bug Fix$: Fixed issues with search methods in app (#1092)\n$Dependency update$: Updated 'schema' dependency to '^0.7.5'"
+  },
+  {
+    "commit_hash": "bd88fe39809919a45c5347516ea62e2aa1c8b114",
+    "summary": "$Refactor$ Updated class to use embedchain helpers.json_serializable instead of embedchain.helper.json_serializable\n$Refactor$ Moved `helper` to `helpers` in the import statement"
+  },
+  {
+    "commit_hash": "6a82eb4287c61821a8f4e4176c2128a3f125f28f",
+    "summary": "$Feature$: Added score to search results."
+  },
+  {
+    "commit_hash": "904baac153f049d0d28d545626b8af8f19586622",
+    "summary": "$Dependency Update: Package version from 0.1.45 to 0.1.46$"
+  },
+  {
+    "commit_hash": "9e2b232c136c9db11605c70306feee70bd012239",
+    "summary": "$Dependency$: Package version from 0.1.46 to 0.1.47"
+  },
+  {
+    "commit_hash": "a7e1520d08b232b182a803918b6ce63c78ffadcf",
+    "summary": "$Feature$: Added ability to retrieve answer context when citations are enabled.\n$Bug Fix$: Improved metadata in sources.\n$Documentation$: Improved documentation for citation feature."
+  },
+  {
+    "commit_hash": "dec12b33a60e8bf0fcfeea171fc8771c895abc96",
+    "summary": "$Style/Formatting$: Update dark mode logo"
+  },
+  {
+    "commit_hash": "e199f572797ccd61100470174bb83ee5e94b20f9",
+    "summary": "$Feature: Redesign of UI using React and addition of new views and components.$"
+  },
+  {
+    "commit_hash": "52b4577d3b2044358cee958c8b2e7b98fc4277ad",
+    "summary": "$Feature$: Updated metadata, live demo, and added documentation links.\n$Installation$: Updated community links and added an intro to the file."
+  },
+  {
+    "commit_hash": "64c02f374a0c588413acff6c00d9cc85d936268c",
+    "summary": "$Feature$: Add four new deployment options: Gradio.app, Huggingface.co, Embedchain.ai, and Huggingface Spaces.\n$Style/Formatting$: Move `embedchain_ai` and `huggingface_spaces` from second to the third list item in `mint.json`."
+  },
+  {
+    "commit_hash": "97dc90169b7a642d98db80bad46bce5d55574124",
+    "summary": "$Feature$ : Updated framework description and link."
+  },
+  {
+    "commit_hash": "7a026ea282cf1d740d7081d5e81909c4fea30e39",
+    "summary": "$Bug Fix$: Link to embedchain repo updated in issue searching instruction."
+  }
+]

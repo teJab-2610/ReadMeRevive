@@ -1,0 +1,27 @@
+commitId#comment
+a1394ce32e74c592a5f575db7413bd5215ea49bd#Dependency Update Updated dependencies, primarily bumped the version and added beautifulsoup  and pypdf dependencies. Chore Added support for passing  specific test file  the `test` command.
+3a09c2bd625692c319c640277730c30bcce28647#Documentation Added FAQ  persisting data across multiple app sessions  documentation.
+dd97fad5a42329cd5100ac77bb759b7eaffba478#Bug Fix Fix indents  yaml file. Configuration Update config section  YAML  Mistral streamlit app.
+6d2389de1c84e97f4891efd950472513cc9b8764#Performance  Improved performance  caching the creation  the Embedchain app instance using @.cache resource decorator.
+db37b2ac153e8cfa3300a5c128f250f1fb3984e6#Bug Fix Fixes issues related  chunker configuration. Configuration Adds `min chunk size`  `chunker` section  config.yaml. Refactor Moves `OPENAI API KEY` assignment  the top  `app.` and uses newer syntax for creating `App` object.
+b5f84f27ffc7de6cdda69b9e111c6d2dab57bf7d#Feature Added 'Modal.com'   hosting option  the CardGroup and  'Seeking help' section with contact information. Chore Updated link for Modal.com card  lib/index.
+7bcc9e35dd7111778d501f1f58edae07bb27411a# Feature Embedchain automatically finds and installs missing requirements  Documentation Updated README with updated quick install instructions, removed outdated sections, and added Anonymous Telemetry section.  Documentation Updated introduction.mdx, fixed typo, and reorganized sections.
+43926fb527869b82b6dfc61afd3c04f31ffb9f6f#Documentation  Updated social media links and added calls  action  README..  Changed the subtitle and added  tagline  introduction.mdx.  Tests  Removed Docker instructions for running Embedchain   REST API server  README..
+65c8dd445bce6ccda5c9cb8ad96a5adfd1cbb66c#Documentation  Updated documentation and added PePy badge Configuration  Changed the comparison  `min chunk size` and `chunk overlap` from `<=`  `<`  the warning message  make  more accurate.
+54f43215cd972cd4f3f3099d29d4115b00e1aa40#Feature Added "Directory"   new data source type. Documentation Updated documentation  include code examples for loading specific file types recursively and added  new Card for  Directory data source.
+e719b5bac39fd1ba31a03578d8213ac2908872f0#Bug Fix Fixed issue with cloning repositories  using proper Github library and validating search queries.  Refactor Improved code organization and structure  removing unnecessary cloning call and replacing  with repo initialization.
+b34825148478e8e1a083dd22e08495e2331e4650#Documentation Update FAQs and remove OpenAI API key setting.
+9943d1e01570f99169bea4e7ea57d9ab30b8d10e#Documentation  Updates documentation for examples  using Embedchain with notebooks and REPLs  Refactor  Removes deployment name for OpenAI embedder.
+bee4e834b16bf8e3204997771df5030702c3ef51# Feature Added Slack integration and documentation for Embedchain SlackLoader.  Documentation Updated documentation for SlackLoader and added Slack   supported data type.
+d66e647f99994e363cf179c10a25b45aa04de9fa#Dependency Update Updates package version from ..  ..
+7910cee2594fe531b2bee6fb1de334d75f472d17#Refactor Moved import  Cohere, HuggingFaceHub, and Replicate  their respective subpackages for better organization and modularity. Dependency Update Updated import  Replicate  its new location  the replicate subpackage.
+ae6f8669014e6d4c1f0e01d76f04ea07aaebc5a6#Feature  Update default chunk size for web page   .
+b7a44ef472dd2cf62148622cb74b9b6399deb98c#Refactor, Dependency Update The commit refactors the build system and updates dependencies  removing `setuptools` and `wheel` and adding `poetrycore`.
+0efbc80ac9723afbecc9290204eb11471c7f968c#Documentation  Updated documentation and added  new example for the Mistral tool. Feature  Added  new embedding provider with Sentence Transformers model from HuggingFace. Dependency Update  Updated dependencies and imported  new config class and data formatter.
+65c8dd445bce6ccda5c9cb8ad96a5adfd1cbb66c#Documentation  Updated the README file  include  'Pebbles' badge. Configuration  Updated the logging for `min chunk size` and `chunk overlap`    warning instead   error  the `add config.` script.
+a4831d6ed9351e69db0a81eca37490a9d8dba8b0#Feature EmbedChain class constructor arguments order has been changed for better consistency  Refactor SitemapLoader imports updated from urllib.parse  urlparse  Dependency Update bumped poetry version from ..  ..
+e84b5034eae349a4ded6946210969fa3b95c08e5#Bug Fix Fixed the return type   chat. Documentation Bumped version  ..
+4a5ed1dd8d7ec5f702da6e1d009b4577444afb46#Feature Added 'citations' argument  EmbedChain class  retrieve citations from the database. Dependency Update Bumped version from ..  ...
+d62a23edf6ab2c5b977280a65f536ccd8923a0d6#Feature Substack  added  the list  supported data sources. Refactor Improved handling  Substack data source  using the root URL and enhanced error handling.
+adde398b658197980a99a705a76279d7ac996600#Dependency Update Updated version number from ..  ...
+111749a95dbd65b4edc3d920bf68d9ccab3e695c#Documentation Adds documentation about getting source along with the answer.

@@ -1,0 +1,30 @@
+[
+  {
+    "commit_hash": "94ba82f2a24fe21d497bfba1a19a676e207ae036",
+    "summary": "$Bug Fix$\n- Fix: Remove unused and deprecated app.count method"
+  },
+  {
+    "commit_hash": "f58bbeffcee36505f4773224a7f33f1c278002ed",
+    "summary": "$Bug Fix: Added features to display sources in the application.$"
+  },
+  {
+    "commit_hash": "73e726f6e3d9989be319515c96e441fca7df0991",
+    "summary": "$Configuration$ : Configuration changes in `config.yaml`, `config.json` and `config.py`.\n$Bug Fix$ : Fixed an issue with the `--port` option in the `dev` command."
+  },
+  {
+    "commit_hash": "1b661bb2fd134d5063a45806f5a726d2fb0e49e2",
+    "summary": "**$Feature$**: Added ability to specify the number of results to retrieve via the \"count\" parameter in the config.\n**$Dependency$**: Updated the package version from 0.1.54 to 0.1.55."
+  },
+  {
+    "commit_hash": "4dfce44c1a4abc8d42191d1d57e286ba31f87008",
+    "summary": "$Bug Fix$: Removed unnecessary \"channel\" field from the message metadata.\n$Dependency Update$: Updated dependencies."
+  },
+  {
+    "commit_hash": "0c45020d811cebf1cdcde274a0933ccab7212437",
+    "summary": "$Feature$: Docker support for full-stack app creation and execution.\n$Installation$: Updated Docker instructions and included images for visual guidance.\n$Documentation$: Improved documentation for full-stack app setup and usage."
+  },
+  {
+    "commit_hash": "6c69ddef9b0131c758a10891e23cbd1d9b3c645a",
+    "summary": "$Dependency$: Package version from 0.1.55 to 0.1.56"
+  }
+]

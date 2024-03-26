@@ -1,0 +1,26 @@
+[
+  {
+    "commit_hash": "65c8dd445bce6ccda5c9cb8ad96a5adfd1cbb66c",
+    "summary": "$Feature$: Add PyPy and PyPI download badges to README\n$Configuration$: Update ChunkerConfig min_chunk_size constraints in add_config.py"
+  },
+  {
+    "commit_hash": "54f43215cd972cd4f3f3099d29d4115b00e1aa40",
+    "summary": "$Feature$ : Added support for using a directory as a data source in EmbedChain.\n$Tests$: Added tests for the new directory data source."
+  },
+  {
+    "commit_hash": "e719b5bac39fd1ba31a03578d8213ac2908872f0",
+    "summary": "$Bug Fix$ : Fixed error caused by executing Repo.clone_from twice\n$Tests$ : Added tests for discussion search"
+  },
+  {
+    "commit_hash": "b34825148478e8e1a083dd22e08495e2331e4650",
+    "summary": "$Documentation$ : Added instructions on using a range of language models, including MistralAI, ChatGPT 4 turbo, GPT-4, and open source models.\n$Configuration$ : Loaded LLM configuration from opensource.yaml file"
+  },
+  {
+    "commit_hash": "9943d1e01570f99169bea4e7ea57d9ab30b8d10e",
+    "summary": "$Installation$ : Removed the \"Examples\" section from the page title and heading.\n$Documentation$ : Simplified the introduction, removing unnecessary phrases.\n$Documentation$ : Eliminated the \"Collection of...\" phrase in the heading of the tables.\n$Documentation$ : Removed unnecessary spacing between table rows.\n$Chore$ : Added a new example group: \"Notebooks and Replits\".\n$Bug Fix$ : Removed the deployment name configuration for the OpenAI text embedding model."
+  },
+  {
+    "commit_hash": "bee4e834b16bf8e3204997771df5030702c3ef51",
+    "summary": "$Feature: Added Slack data source support$\n$Documentation: Simplified example and added Slack data source support to documentation$\n$Installation: Automatic data retrieval for Slack$"
+  }
+]

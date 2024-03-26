@@ -1,0 +1,14 @@
+[
+  {
+    "commit_hash": "a1394ce32e74c592a5f575db7413bd5215ea49bd",
+    "summary": "$Feature$ : Added test flag for specifying a specific file to run in pytest\n$Dependency$ : Updated version to 0.1.37, and made various dependency changes including updating beautifulsoup4, pypdf, etc."
+  },
+  {
+    "commit_hash": "3a09c2bd625692c319c640277730c30bcce28647",
+    "summary": "$Feature$: Added FAQ on persisting data across multiple app sessions.\n$Chore$: Updated titles and configuration examples."
+  },
+  {
+    "commit_hash": "a10823d309eb3def4663b83dff10df9902c4f117",
+    "summary": "$Feature: Added AI chatbot functionality in the Unacademy UPSC AI app, enabling users to ask questions and receive AI-powered responses.$\n$Dependency: Added embedchain, streamlit, and pysqlite3-binary libraries.$"
+  }
+]

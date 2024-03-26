@@ -1,0 +1,22 @@
+[
+  {
+    "commit_hash": "d66e647f99994e363cf179c10a25b45aa04de9fa",
+    "summary": "$Dependency$: Package version from 0.1.31 to 0.1.32"
+  },
+  {
+    "commit_hash": "7910cee2594fe531b2bee6fb1de334d75f472d17",
+    "summary": "$Dependency Update: LLMs imported from langchain.llms to langchain.llms.cohere, langchain.llms.replicate and langchain.llms.huggingface_hub$"
+  },
+  {
+    "commit_hash": "ae6f8669014e6d4c1f0e01d76f04ea07aaebc5a6",
+    "summary": "$Feature$: Updated default chunk size from 500 to 2000 in WebPageChunker for better performance.\n$Refactor$: Adjusted chunk sizes and overlap values for specific chunker types and applied custom configuration values using ChunkerConfig for consistent configuration across chunkers."
+  },
+  {
+    "commit_hash": "b7a44ef472dd2cf62148622cb74b9b6399deb98c",
+    "summary": "$Feature$ : Updated build system tool from setuptools to poetry\n$Dependency$ : Added `poetry-core` to `requires` of `build-system`"
+  },
+  {
+    "commit_hash": "0efbc80ac9723afbecc9290204eb11471c7f968c",
+    "summary": "$Documentation$ - Updates to FAQs and examples.\n$Support$ - Configuration updates for DirectoryLoader.\n$Refactor$ - Utility function updates and import handling."
+  }
+]

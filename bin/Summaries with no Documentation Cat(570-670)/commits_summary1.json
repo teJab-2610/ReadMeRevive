@@ -1,0 +1,26 @@
+[
+  {
+    "commit_hash": "a4831d6ed9351e69db0a81eca37490a9d8dba8b0",
+    "summary": "$Dependency Updates$ : bumped to 0.1.27\n$Feature$: Adds `citation` to `index.js` from `urllib.parse`."
+  },
+  {
+    "commit_hash": "e84b5034eae349a4ded6946210969fa3b95c08e5",
+    "summary": "$Bug Fix$: Improved performance and fixed re-embedding issues in EmbedChain.\n$Feature$: Added optional \"citations\" flag to query function.\n$Dependency Update$: Bumped Poetry version from 0.1.27 to 0.1.28."
+  },
+  {
+    "commit_hash": "4a5ed1dd8d7ec5f702da6e1d009b4577444afb46",
+    "summary": "$Feature$ : Added citations flag for EmbedChain.\n$Dependency Update$ : Minor update in package version from 0.1.28 to 0.1.29."
+  },
+  {
+    "commit_hash": "d62a23edf6ab2c5b977280a65f536ccd8923a0d6",
+    "summary": "$Feature$: Adds 'Substack' as a supported data source.\n$Refactor$: Changes the source URL from sitemap.xml to the main base URL for Substack data sources.\n$Bug Fix$: Improves error handling for HTTP requests and XML parsing, and adds handling for non-sitemap URLs.\n$Dependency Update$: Adds dependency on `xml.etree`."
+  },
+  {
+    "commit_hash": "adde398b658197980a99a705a76279d7ac996600",
+    "summary": "$Dependency Update$: Bumped version from 0.1.29 to 0.1.30"
+  },
+  {
+    "commit_hash": "111749a95dbd65b4edc3d920bf68d9ccab3e695c",
+    "summary": "$Feature$: Added documentation about getting source along with the answer."
+  }
+]

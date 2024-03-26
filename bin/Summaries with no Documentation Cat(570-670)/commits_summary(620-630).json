@@ -1,0 +1,14 @@
+[
+  {
+    "commit_hash": "64c02f374a0c588413acff6c00d9cc85d936268c",
+    "summary": "$Feature$: Add four new deployment options: Gradio.app, Huggingface.co, Embedchain.ai, and Huggingface Spaces.\n$Style/Formatting$: Move `embedchain_ai` and `huggingface_spaces` from second to the third list item in `mint.json`."
+  },
+  {
+    "commit_hash": "97dc90169b7a642d98db80bad46bce5d55574124",
+    "summary": "$Feature$ : Updated framework description and link."
+  },
+  {
+    "commit_hash": "7a026ea282cf1d740d7081d5e81909c4fea30e39",
+    "summary": "$Bug Fix$: Link to embedchain repo updated in issue searching instruction."
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "commit_hash": "dd258c14b54764c953f3e7424aa58bc8a2082b3c",
+    "summary": "$Feature: GPT4All can now work offline.$"
+  },
+  {
+    "commit_hash": "dd9b72dc62ac517339d0e66617cb1aa41fcd307f",
+    "summary": "$Dependency$: Bump version from 0.1.50 to 0.1.51"
+  },
+  {
+    "commit_hash": "f5e3410e9ae1102428746686b69590082f1eccaf",
+    "summary": "$Documentation: Adding `session_id` parameter to docs for maintaining chat sessions for different users.$"
+  },
+  {
+    "commit_hash": "1976d38b258b8295a975f7e19bf1cb02c6a9e8a6",
+    "summary": "$Bug Fix$: Fix pdf streamlit example.\n$Tests$: Update tests for source link fix."
+  },
+  {
+    "commit_hash": "ae2e9cb8900bc9501cf58ee7fd7b18541e22eb36",
+    "summary": "$Bug Fix: Fixed cache session id in chat method.$\n$Refactor: \n- Renamed `query_embedding` to `query`.\n- Renamed `add_embedding` to `add`.\n- Renamed `embedding` to `chunk`.\n- Set `ChunkerConfig` as the default config for the `add` function.\n- Set `BaseLlmConfig` as the default config for the `query` function.$"
+  },
+  {
+    "commit_hash": "a67d902b85b9c127be054789789bb1c710136f3a",
+    "summary": "$Bug Fix$: Updated seq2seq generation top_p to 0.5 to control randomness of LLM output."
+  },
+  {
+    "commit_hash": "38ad57a22ca4609747c4873dbba4df4d81bda676",
+    "summary": "$Documentation$  Minor update to documentation with typo fixes and improved wording."
+  }
+]

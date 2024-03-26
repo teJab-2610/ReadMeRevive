@@ -1,0 +1,26 @@
+[
+  {
+    "commit_hash": "65c8dd445bce6ccda5c9cb8ad96a5adfd1cbb66c",
+    "summary": "$Documentation$ : Added pypi downloads badge and added screenshots to reflect the changes.\n$Refactor$ : Updated the slack, discord, and twitter links to move them to their respective sections.\n$Refactor$ : Updated the min chunk size check in ChunkerConfig.py.\n$Chore$ : Added a line to telemetry section to emphasize data security.\n$Dependency Update$ : Replaced docs.embedchain.ai with subdirectories for specific links.\n$Documentation$ : Provisioned specific subdirectories for navigation and added links to embedchain.substack.com."
+  },
+  {
+    "commit_hash": "54f43215cd972cd4f3f3099d29d4115b00e1aa40",
+    "summary": "- $Documentation/Installation$: Added a new data source type called Directory.\n- $Documentation/Support$: Added documentation for Directory data source customization."
+  },
+  {
+    "commit_hash": "e719b5bac39fd1ba31a03578d8213ac2908872f0",
+    "summary": "$Bug Fix$ Added error handling to GithubLoader class. This ensures graceful handling of the absence of the GitHub client and provides clear error messages."
+  },
+  {
+    "commit_hash": "b34825148478e8e1a083dd22e08495e2331e4650",
+    "summary": "$Feature$: Updated LLM model and related syntax for GPT-4.\n$Style/Formatting$: Fixed typo in stream response.\n$Configuration$: Switched LLM configuration loading to YAML file instead of environment variable."
+  },
+  {
+    "commit_hash": "9943d1e01570f99169bea4e7ea57d9ab30b8d10e",
+    "summary": "$Documentation$ and $Feature$"
+  },
+  {
+    "commit_hash": "bee4e834b16bf8e3204997771df5030702c3ef51",
+    "summary": "$Documentation$\n- Added documentation for Slack data source.\n$Feature$\n- Added Slack as a supported data source."
+  }
+]

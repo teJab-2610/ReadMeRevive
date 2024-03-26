@@ -1,0 +1,26 @@
+[
+  {
+    "commit_hash": "db37b2ac153e8cfa3300a5c128f250f1fb3984e6",
+    "summary": "$Bug Fix$: Fixed the chunker configuration bug.\n$Configuration$: Updated the configuration to include a new 'min_chunk_size' option with a value of 0."
+  },
+  {
+    "commit_hash": "33dcfe42b5d311cbe7282f626358cffa5e5b27d1",
+    "summary": "$Feature$ : Updated the Chainlit app setup and improved the Streamlit docs.\n$Dependency Update$: Updated the LLM model to \"mistralai/Mistral-8x7B-Instruct-v0.1\" in app.py and config.yaml."
+  },
+  {
+    "commit_hash": "cd2c40a9c45100bf00b72074027c73facedebe38",
+    "summary": "$Feature: OpenAI function calling support$\n$API Update: Updated to the latest version of OpenAI API$\n$Tests: Tests for OpenAI functions$"
+  },
+  {
+    "commit_hash": "b5f84f27ffc7de6cdda69b9e111c6d2dab57bf7d",
+    "summary": "$Chore$: Code improvement for display of Modal.com in overview section."
+  },
+  {
+    "commit_hash": "7bcc9e35dd7111778d501f1f58edae07bb27411a",
+    "summary": "- Feature: Added Sadhguru AI app demonstration.\n- Feature: Added a section \"Getting started\" to give users a better idea on how to start working with Embedchain.\n- Feature: Added a section \"Support\" to provide users contact information and a quickstart guide.\n- Refactor: Code style refactoring.\n- Refactor: Added support for Windows systems.\n- Refactor: Updated documentation links for component overview.\n- Support: Moved REST API port to 8080.\n- Support: Added documentation for using the REST API with Python.\n- Support: Improvements to REST API documentation.\n- Installation: Docs on steps to setup the software.\n- Chore: Contributions section moved.\n- Configuration: Updated documentation links.\n- Configuration: Updated docs to reflect latest changes in platform.\n- Dependency Update: Updated documentation links for PyPI, Twitter, and Embedchain.\n- Dependency Update: Added a new documentation link for Sadhguru AI.\n- Dependency Update: Updated documentation links for Slack, Twitter, and Substack."
+  },
+  {
+    "commit_hash": "43926fb527869b82b6dfc61afd3c04f31ffb9f6f",
+    "summary": "$Feature$: Emphasized the \"Conventional but Configurable\" design principle, and removed the production-ready tag.\n$Documentation$: Updated the Python API installation command, and added a Discord Community link."
+  }
+]

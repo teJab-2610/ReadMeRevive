@@ -288,7 +288,7 @@ class GitHubInfoFetcher:
             final_response.append({'pull_request_id': pr_number, 'issue_number': issue_number, 'issue_title': issue_title, 'commits_sha':commits, 'merge_commit_sha':merge_commit_sha})
 
         #Uncomment the below print command to see the json
-        print(json.dumps(final_response, indent=4))
+        #print(json.dumps(final_response, indent=4))
 
         with open('pr_info.json', 'w') as f:
             json.dump(final_response, f)
@@ -302,9 +302,9 @@ class GitHubInfoFetcher:
         #   print(y)
         #   print("\n\n\n")
 
-repo_url = "https://github.com/embedchain/embedchain"
-token = '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'
+# repo_url = "https://github.com/embedchain/embedchain"
 
-fetcher = GitHubInfoFetcher(token)
-fetcher.main(repo_url)
+
+# fetcher = GitHubInfoFetcher(token)
+# fetcher.main(repo_url)
 

@@ -1,0 +1,26 @@
+[
+  {
+    "commit_hash": "904baac153f049d0d28d545626b8af8f19586622",
+    "summary": "$Dependency Update: Package version from 0.1.45 to 0.1.46$"
+  },
+  {
+    "commit_hash": "9e2b232c136c9db11605c70306feee70bd012239",
+    "summary": "$Dependency$: Package version from 0.1.46 to 0.1.47"
+  },
+  {
+    "commit_hash": "a7e1520d08b232b182a803918b6ce63c78ffadcf",
+    "summary": "$Feature$: Added ability to retrieve answer context when citations are enabled.\n$Bug Fix$: Improved metadata in sources.\n$Documentation$: Improved documentation for citation feature."
+  },
+  {
+    "commit_hash": "dec12b33a60e8bf0fcfeea171fc8771c895abc96",
+    "summary": "$Style/Formatting$: Update dark mode logo"
+  },
+  {
+    "commit_hash": "e199f572797ccd61100470174bb83ee5e94b20f9",
+    "summary": "$Feature: Redesign of UI using React and addition of new views and components.$"
+  },
+  {
+    "commit_hash": "52b4577d3b2044358cee958c8b2e7b98fc4277ad",
+    "summary": "$Feature$: Updated metadata, live demo, and added documentation links.\n$Installation$: Updated community links and added an intro to the file."
+  }
+]

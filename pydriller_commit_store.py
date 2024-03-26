@@ -266,8 +266,8 @@ class CommitStore:
                   file_diff_summaries.append((fileName,file_diff_summarie))
               summarise_commit=summary_gen.commit_summary_code_diff(message,file_summaries,file_diff_summaries)
 
-              print("Commit Summary for the commit hash ", commit_hash," : \n")
-              print(summarise_commit)
+              # print("Commit Summary for the commit hash ", commit_hash," : \n")
+              # print(summarise_commit)
               return summarise_commit
 
     def get_files_summarise_code_3(self, commit_hash,commit_msg,issue_title):

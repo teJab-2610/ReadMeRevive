@@ -1,0 +1,18 @@
+[
+  {
+    "commit_hash": "a304ded5002ce46e5eeee96fb5980f521c11be69",
+    "summary": "$Bug Fix$: Fixes a bug where an existing doc is not updated with new content.\n$Refactor$: Swaps the arguments for `.add()` method, adds `self.is_docs_site_instance` to the `add` method to check if the data type is `DataType.DOCS_SITE`.\n$Chore$: Removes code related to the `user_asks` list in `.add()` to reduce memory usage.\n$Dependency$: Changes parser type file from 'lxml-xml' to 'html.parser' and adds 'embedder' and 'embedding_model' to the code.\n$Configuration$: Adds two new optional fields to the config validation: `title` and `task_type`."
+  },
+  {
+    "commit_hash": "4f70fea6dfefbedaab990cd8c5e70507687b1c4a",
+    "summary": "$Bug Fix$: Fixed issues with search methods in app (#1092)\n$Dependency update$: Updated 'schema' dependency to '^0.7.5'"
+  },
+  {
+    "commit_hash": "bd88fe39809919a45c5347516ea62e2aa1c8b114",
+    "summary": "$Refactor$ Updated class to use embedchain helpers.json_serializable instead of embedchain.helper.json_serializable\n$Refactor$ Moved `helper` to `helpers` in the import statement"
+  },
+  {
+    "commit_hash": "6a82eb4287c61821a8f4e4176c2128a3f125f28f",
+    "summary": "$Feature$: Added score to search results."
+  }
+]
